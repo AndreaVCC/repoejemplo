@@ -12,7 +12,7 @@ public class Persona {
 	Persona(){
 		this.nombre = "";
 		this.edad = 0;
-		this.sexo = 'H';
+		this.sexo = 'M';
 		this.peso = 0;
 		this.altura = 0;
 		this.rut = generarRUN();

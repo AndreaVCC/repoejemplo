@@ -39,7 +39,7 @@ public class PruebaPersona {
 		Persona persona2 = new Persona(_nombre, _edad, _sexo);
 		System.out.println(persona2.toString());
 		persona2.setAltura(1.8);
-		persona2.setPeso(50);
+		persona2.setPeso(70);
 		System.out.println("¿Es mayor de edad?: " + persona2.esMayorDeEdad());
 		System.out.println("Situación IMC: " + persona2.evaluarIMC());
 		
