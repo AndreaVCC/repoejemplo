@@ -107,7 +107,7 @@ public class Vendedor extends Empleado {
 	}//Cierre del método
 	
 	/**
-	 * Método que incrementa el salario de un empleado. 
+	 * Método que incrementa el salario de un vendedor. 
 	 */
 	public void incrementarSalario() {
 		super.setSalario((int)(super.getSalario()*1.1));
