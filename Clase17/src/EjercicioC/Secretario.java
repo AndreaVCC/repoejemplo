@@ -38,7 +38,7 @@ public class Secretario extends Empleado {
 	}
 	
 	public void incrementarSalario() {
-		super.setSalario((int)(super.getSalario()*1.05));
+		this.setSalario((int)(this.getSalario()*1.05));
 	}
 	
 }
